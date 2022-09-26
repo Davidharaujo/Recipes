@@ -33,12 +33,20 @@ export const ContainerImage = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    width:30vw;
+    height:95vh;
+
 `
 
 export const Imagem = styled.img`
     width:25vw;
     height:45vh;
     margin-bottom:3vh;
+    &:hover{
+        cursor:pointer;
+        width:28vw;
+        height:50vh;
+    }
 `
 
 export const TextBox = styled.div`
