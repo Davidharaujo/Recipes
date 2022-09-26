@@ -47,6 +47,7 @@ export const Imagem = styled.img`
         width:28vw;
         height:50vh;
     }
+    
 `
 
 export const TextBox = styled.div`
