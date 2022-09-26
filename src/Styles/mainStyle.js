@@ -43,11 +43,10 @@ export const Imagem = styled.img`
     height:45vh;
     margin-bottom:3vh;
     &:hover{
-        cursor:pointer;
         width:28vw;
         height:50vh;
+        cursor:pointer;
     }
-    
 `
 
 export const TextBox = styled.div`
