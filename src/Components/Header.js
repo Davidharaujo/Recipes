@@ -15,6 +15,7 @@ export default function Header() {
                     <S.Item>SUBSCRIBE</S.Item>
                 </S.Lista>
             </S.Navigation>
+            <S.Hamburguer>☰</S.Hamburguer>
         </S.Header>
         <S.Titulo>RECIPES</S.Titulo>
     </S.Container>

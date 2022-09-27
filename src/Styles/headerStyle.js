@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled, { createGlobalStyle, keyframes } from "styled-components";
 import background from '../Components/img/background.png'
+import backmobile from '../Components/img/backmobile.png'
 
 export const Container = styled.section`
     background-image: url(${background});
@@ -13,6 +14,15 @@ export const Container = styled.section`
     width: 100%;
     height: 100vh;
     color: #373737;
+
+    @media screen and (max-width:520px){
+        background-image: url(${backmobile});
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        width: 100%;
+        height: 100vh;
+        color: #373737;
+    }
 `
 
 export const Header = styled.div`
@@ -22,6 +32,12 @@ export const Header = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 2vw;
+
+    @media screen and (max-width:520px){
+        img{
+            display: none;
+        }
+    }
 `
 
 export const Navigation = styled.nav`
@@ -29,6 +45,10 @@ export const Navigation = styled.nav`
     align-items: center;
     width: 50%;
     height: 17vh;
+
+    @media screen and (max-width:520px){
+        display: none;
+    }
 `
 
 export const Lista = styled.ul`
@@ -57,8 +77,29 @@ export const Item = styled.li`
     }
 `
 
+export const Hamburguer = styled.button`
+    display: none;
+
+    @media screen and (max-width:520px){
+        display: flex;
+        padding: 0 1vw;
+        font-size: 8vw;
+        width: 10vw;
+        background-color: transparent;
+        border: none;
+        position: relative;
+        left: 80vw;
+
+    }
+`
+
 export const Titulo = styled.h1`
     font-size: 13vh;
     letter-spacing: 1vw;
     font-weight: 600;
+
+    @media screen and (max-width:520px){
+        font-size: 6vh;
+    }
 `
+
