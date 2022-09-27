@@ -15,7 +15,7 @@ export default function Main() {
       </S.ContainerTitle>
       <S.CntImg>
       <S.ContainerImage>
-        <S.Imagem src={CakeRedVelvet} alt='Bolo red velvet' />
+        <S.Image src={CakeRedVelvet} alt='Bolo red velvet' />
         <S.TextBox>
           <S.TextUnderScore></S.TextUnderScore>
           <S.Text>Red Velvet Cake</S.Text>
@@ -23,7 +23,7 @@ export default function Main() {
       </S.ContainerImage>
 
       <S.ContainerImage>
-        <S.Imagem src={Pizza} alt='Pizza margherita' />
+        <S.Image src={Pizza} alt='Pizza margherita' />
         <S.TextBox>
           <S.TextUnderScore></S.TextUnderScore>
           <S.Text>Margherita Pizza</S.Text>
@@ -31,7 +31,7 @@ export default function Main() {
       </S.ContainerImage>
 
       <S.ContainerImage>
-        <S.Imagem src={Smoothie} alt='Dois Smoothies' />
+        <S.Image src={Smoothie} alt='Dois Smoothies' />
         <S.TextBox>
           <S.TextUnderScore></S.TextUnderScore>
           <S.Text>Peanut Smoothie</S.Text>
